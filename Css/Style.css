@@ -1,0 +1,537 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');*/
+/* this is css comments */
+/* */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container {
+    flex: 1;    /* same as flex-grow: 1; */
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+/*  Common */
+h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+    
+    
+}
+p{
+    font-size: 16px;
+    line-height: 1.2em;
+}
+ .cflex
+ {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:flex-start;
+     margin-top: 1PX;
+     margin-bottom: 0px;     
+}
+ /* button css */
+.ctr{
+    background-color: #484b4e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+
+  }
+  .ctr:hover
+  {
+    background-color: #6c757d;
+    
+  }
+
+  /*  Font Family */
+  .ffamily{
+      /*
+    font-family: 'Montserrat Alternates', sans-serif;*/
+      line-height: 1.5em;
+    /* 
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    }
+  /* Margin */
+  .m10{margin: 10px;}
+  .m15{margin: 15px;}
+  .m20{margin: 20px;}
+  .m30{margin: 30px;}
+  .m40{margin: 40px;}
+  .m50{margin: 50px;}
+
+  /* Padding */
+  .p10{padding: 10px;}
+  .p20{padding: 20px;}
+  .p30{padding: 30px;}
+  .p40{padding: 40px;}
+  .p50{padding: 50px;}
+
+  /* font size*/
+  .fs16{font-size: 16px; }
+  .fs17{font-size: 17px; }
+  .fs18{font-size: 18px; }
+  .fs19{font-size: 19px; }
+  .fs20 {font-size: 20px; }
+  .fs21 {font-size: 21px; }
+  .fs22 {font-size: 22px; }
+  .fs23 {font-size: 23px; }
+  .fs24 {font-size: 24px; }
+  .fs25 {font-size: 25px; }
+  .fs26 {font-size: 26px; }
+  .fs27 {font-size: 27px; }
+  .fs28 {font-size: 28px; }
+  .fs29 {font-size: 29px; }
+  .fs30 {font-size: 30px; }
+  /* End Of Common */
+/* Font color*/
+.fblack{
+     color: rgb(31, 29, 27);
+}
+.fwhite{
+    color:rgb(172, 194, 214);
+}
+/*  Top Header */
+.topbar
+{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-end;
+    /*
+    background: #550555;
+    */
+    background: #6c757d;
+    height: 40px;
+    padding-top: 10px;
+        
+}
+.nav_links{
+    list-style: none;
+    
+}
+.nav_links li{
+    display: inline-block;
+    padding:0;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align:center;
+    padding-right: 30px;
+     
+}
+.nav_links li a:hover{
+    color: thistle;
+}
+ 
+.mediumsection{
+    margin-top: 30;
+    padding-left:20;
+}
+/* Navigation */
+.navigation{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content:space-around;
+    list-style: none;
+    margin-top: 20px;
+    /*
+    background:#810981;
+    */
+    background:#17a2b8;
+    padding-left: 0;
+    
+    
+}
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color:white;
+    font-size: 16;
+    font-family:sans-serif;
+    text-align: center;
+  
+}
+.navigation a:hover{
+    background:#03606d;
+    }
+
+
+/* end of Navigation*/
+
+/*  main Header Image*/
+
+.mainimage{
+    display: flex;
+    flex-shrink: 0;
+    height:500px;
+    width: 100%;
+}
+
+/* Main Body */
+
+   /*  Special three layer Boxes*/
+ .specialbox{
+    font-size: 20px;
+    /*
+    font-family: 'Montserrat Alternates', sans-serif;*/
+    text-align: center;
+    padding: 15px;
+    /*width: 33.3%;*/
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    }
+.specialbox1 { 
+    background: #25CEE9;
+    color: rgb(78, 90, 37);
+     }
+.specialbox2 { 
+    background: #FFC107;
+    color: rgb(78, 90, 37);
+     }
+.specialbox3 { 
+    background: #28A745;
+    color: rgb(151, 10, 22); }
+
+/* End */
+
+
+/* Section Info start */
+.infosection{
+        width:50%;
+        background-color:#343a40;
+    }
+    
+.infosection_left_title{
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0px;
+    padding:25px;
+   }
+.infosection_left_subtitle{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20PX;
+   }
+.infosection_content{
+    text-align: left;
+    margin-top: 30px; 
+     }
+.infosection_rigt{
+background-image: url(/GcsewithMfs/Images/woman-laptop.png);
+height: 500px;
+flex-shrink: initial;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.right{
+    
+    float: right;
+}
+/*  Testimonials*/
+
+.testimonials{
+    background-color:#17a2b8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.testimonials h2{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Testimonails Content section*/
+.testimonials_tclass{
+        /*width: 33.3%;*/
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    }
+.testimonials_first { 
+    border-right:5px solid white;
+    text-align: center;
+    padding: 30px;
+     }
+
+    /* Courses*/
+
+.courses{
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.fc{
+    text-align: center;
+}
+
+
+/* Testimonails Content section*/
+.courses_subject{
+        /*width: 33.3%;*/
+    width: 33.3%;
+              
+    }
+.courses_subject_content { 
+    text-align: center;
+    padding: 40px;    
+     }
+.coursepop{
+margin-top: -19px;
+width: 302px;
+margin-left: 33px;
+background: #03606d;
+color: whitesmoke;
+position: relative;
+font-size: 20px;
+padding: 10px;
+cursor: pointer;
+}
+.coursepop a{
+    color: whitesmoke;
+}
+
+
+/* Tooltip */
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+     /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 30%;
+    left: 20%;
+    
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+/* End */
+
+/* Comming Soon Page */
+
+.container_csp {
+    padding: 10px;
+    height: 700px;
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/11/07/39/winter-4687676__480.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20PX;
+  }
+  csp_content{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+  font-weight: bold;
+  }
+
+/* End Of Comming Soon page */
+
+/* Contact Page */
+  .contactform_outer{
+      list-style-type: none;
+      padding: 0;
+      max-width: 800px;
+      margin: 0 auto;
+  }
+  .contactform_outer li{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  .contactform_outer>li:not(:last-child)
+  {
+      margin-bottom: 20px;
+  }
+  .contactform_outer
+
+
+
+/* footer */
+
+footer{
+    /*
+    background-color: blueviolet;
+    
+    background: #810981;*/
+    background: #045561;
+    
+    color: white;
+    line-height: 2em;
+    
+}
+footer a {
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color:#550555;
+    padding: 5px;
+    
+    
+
+}
+.footer-title{
+    color:rgb(223, 221, 98);
+    font-family: 'Montserrat Alternates', sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-size:16px;
+    padding-bottom: 0.625rem;
+    
+}
+.footer-main{
+    padding:1.25rem 1.87rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+}
+.footer-main-item
+{
+    padding:1.25rem;
+    min-width: 12.5rem;
+}
+
+/* footer social*/
+.footer-social{
+    padding:0 1.875rem 1.25rem;
+}
+.footer-social-list{
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding:1.25rem;
+}
+.footer-social-list li{
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+/* footer Legal*/
+.footer-legal
+{
+    padding: 0.9375rem 1.875rem;
+    /*
+    background-color:#550555;*/
+    background: #4c5257;
+}
+.footer-legal-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-legal-list li{
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+.footer-legal-list li:nth-last-child(2){
+    flex:1
+}
+/* form newsletter */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+/* Medium Screens */
+
+@media screen and (max-width: 800px)
+{
+    .navigation{
+        justify-content: space-around;
+
+    }
+    .footer-main{
+        justify-content: space-evenly;
+    }
+}
+/* small Screens */
+
+@media screen and (max-width: 600px) {
+   
+    .navigation{
+        flex-flow: column wrap;
+        padding: 0;
+        
+    }
+    .navigation a{
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;
+      }
+      .footer-main{
+          justify-content: space-around;
+      }
+  }
+  
