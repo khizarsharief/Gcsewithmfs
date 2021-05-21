@@ -151,7 +151,7 @@ p{
      
 }
 .nav_links li a:hover{
-    color: thistle;
+    color: #8fe6fc
 }
  
 .mediumsection{
@@ -590,15 +590,19 @@ footer{
 footer a {
     text-decoration: none;
     color:white;
-}
+    }
+    /*
 footer a:hover{
     text-decoration: none;
     cursor: pointer;
-    background-color:#03606d;
-    padding: 5px;
+    background-color:#d61b2b;
+    padding: 0px;
     
-    
-
+}
+*/
+.fhover a:hover
+{
+    color: yellow;
 }
 .footer-title{
     color:rgb(223, 221, 98);
@@ -634,6 +638,10 @@ footer a:hover{
 .footer-social-list li{
     margin: 0.5rem;
     font-size: 1.25rem;
+}
+
+.footer-social-list a:hover{
+color: #8fe6fc;
 }
 
 /* footer Legal*/
