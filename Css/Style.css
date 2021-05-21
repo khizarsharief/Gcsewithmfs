@@ -108,6 +108,8 @@ p{
   .fs28 {font-size: 28px; }
   .fs29 {font-size: 29px; }
   .fs30 {font-size: 30px; }
+  .fs50 {font-size: 50px; }
+  .fs80 {font-size: 80px; }
   /* End Of Common */
 /* Font color*/
 .fblack{
@@ -195,6 +197,13 @@ p{
     flex-shrink: 0;
     height:500px;
     width: 100%;
+}
+.childpage_main_image{
+    display: flex;
+    flex-shrink: 0;
+    height:350px;
+    width: 100%;
+
 }
 
 /* Main Body */
@@ -406,6 +415,136 @@ cursor: pointer;
   .contactform_outer>li:not(:last-child)
   {
       margin-bottom: 20px;
+  }
+
+  /* Subjects  */
+
+  /* Flex Container  */
+
+  .Subjectbox_content{
+    font-size: 20px;
+    padding: 15px;
+     margin: 20px;
+     width: 50px;
+    background-color: whitesmoke;
+    }
+.subjectbox_content_header { 
+    text-align: center;
+    color: rgb(78, 90, 37);
+    padding-top: 50px;
+    
+     }
+     .col{
+         color: black;
+     }
+    .sflex_grow6
+    {
+     flex-grow: 6;
+     background-color: whitesmoke;
+    }
+    .sflex_grow4
+    {
+        color: white;
+     flex-grow: 4;
+    }
+
+
+  
+ .Subjectbox{
+    font-size: 20px;
+    padding: 15px;
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    }
+.subjectbox_Header { 
+    text-align: center;
+    color: rgb(78, 90, 37);
+    padding-top: 50px;
+    padding-bottom: 30px;
+     }
+
+    
+.badge {
+    clear: both;
+  position: absolute;
+  top: 570px;
+  right: 1125px;
+  padding: 5px 10px;
+  border-radius: 30%;
+  background-color: #DC354A;
+  color: white;
+}
+
+.bbadge {
+  clear: both;
+  position: absolute;
+  top: 570px;
+  right: 625px;
+  padding: 5px 10px;
+  border-radius: 30%;
+  background-color: rgb(53, 233, 21);
+  color: white;
+}
+.cbadge{
+    clear: both;
+  position: absolute;
+  top: 570px;
+  right: 225px;
+  padding: 5px 10px;
+  border-radius: 30%;
+  background-color: #FD7E14;
+  color: white;
+
+}
+
+  .Subjectbox .subjects_topics {
+    /*
+    background-color: rgb(206, 98, 9);
+    */
+    background-color:#DC354A;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer; 
+    text-align:left;   
+  }
+  .Subjectbox .subjects_topics_biology {
+    /*
+    background-color: rgb(206, 98, 9);
+    */
+    background-color:#28A745;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer; 
+    text-align:left;   
+  }
+  .Subjectbox .subjects_topics_chemistry {
+    /*
+    background-color: rgb(206, 98, 9);
+    */
+    background-color:#FD7E14;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer; 
+    text-align:left;   
+  }
+  .mbcolor{
+    background-color:#DC354A;
+  }
+  .topicsmargin{
+      margin: 50px;
+  }
+  
+  /* Darker background on mouse-over */
+  .subjects_topics:hover {
+    background-color: rgb(172, 176, 189);
   }
   
 
