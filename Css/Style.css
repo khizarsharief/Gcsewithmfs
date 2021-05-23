@@ -32,6 +32,7 @@ p{
     font-size: 16px;
     line-height: 1.2em;
 }
+/* flex parent/Container */
  .cflex
  {
      display: flex;
@@ -69,6 +70,23 @@ p{
     /* 
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     }
+    /* Font color*/
+.fblack{
+    color: rgb(31, 29, 27);
+}
+.fwhite{
+   color:rgb(172, 194, 214);
+}
+
+    .falign_center{
+        text-align: center;
+    }
+    .falign_left{
+        text-align: left;
+    }
+    .falign_right{
+        text-align: right;
+    }
   /* Margin */
   .m10{margin: 10px;}
   .m15{margin: 15px;}
@@ -84,6 +102,7 @@ p{
   .p40{padding: 40px;}
   .p50{padding: 50px;}
    
+  /*padding left */
   .pl10{padding-left: 10px;}
   .pl20{padding-left: 20px;}
   .pl30{padding-left: 30px;}
@@ -91,6 +110,19 @@ p{
   .pl50{padding-left: 50px;}
   .pl150{padding-left: 150px;}
   .pt20{padding-top: 20px;}
+
+  /* padding top */
+
+  .pt10{ padding-top: 10px;}
+  .pt20{ padding-top: 20px;}
+  .pt30{ padding-top: 30px;}
+  .pt40{ padding-top: 40px;}
+  .pt50{ padding-top: 50px;}
+  .pt60{ padding-top: 60px;}
+  .pt70{ padding-top: 70px;}
+  .pt80{ padding-top: 80px;}
+  .pt90{ padding-top: 90px;}
+  .pt100{ padding-top: 100px;}
 
   /* font size*/
   .fs16{font-size: 16px; }
@@ -111,13 +143,7 @@ p{
   .fs50 {font-size: 50px; }
   .fs80 {font-size: 80px; }
   /* End Of Common */
-/* Font color*/
-.fblack{
-     color: rgb(31, 29, 27);
-}
-.fwhite{
-    color:rgb(172, 194, 214);
-}
+
 /*  Top Header */
 .topbar
 {
@@ -443,37 +469,53 @@ cursor: pointer;
 
   /* Subjects  */
 
-  /* Flex Container  */
+  /* Flex Container  Items */
 
   .Subjectbox_content{
-    font-size: 20px;
-    padding: 15px;
+     padding: 15px;
      margin: 20px;
-     width: 50px;
-    background-color: whitesmoke;
+     background-color: whitesmoke;
+              
     }
+    .item1{
+        margin: 15px;
+       width:75%;
+        max-width:65%;
+        color:rgb(145, 133, 133);
+        padding: 10px;
+        }
+        .item1 h2{
+            font-size: 20px;
+            padding: 10px;
+
+            
+            color: rgb(73, 66, 66);
+        }
+        .item1 p{
+            padding-bottom: 15px;
+            line-height: 20px;
+        }
+    .item2{
+    
+        width:25%;
+        padding: 30px;
+    }
+    .item2 a img{
+        margin-top: 20px;
+    }
+ 
+    .t{
+        margin: 30px;
+    }
+    
+       
 .subjectbox_content_header { 
     text-align: center;
     color: rgb(78, 90, 37);
     padding-top: 50px;
     
      }
-     .col{
-         color: black;
-     }
-    .sflex_grow6
-    {
-     flex-grow: 6;
-     background-color: whitesmoke;
-    }
-    .sflex_grow4
-    {
-        color: white;
-     flex-grow: 4;
-    }
-
-
-  
+     
  .Subjectbox{
     font-size: 20px;
     padding: 15px;
@@ -493,7 +535,7 @@ cursor: pointer;
 .badge {
     clear: both;
   position: absolute;
-  top: 570px;
+  top: 870px;
   right: 1125px;
   padding: 5px 10px;
   border-radius: 30%;
@@ -504,7 +546,7 @@ cursor: pointer;
 .bbadge {
   clear: both;
   position: absolute;
-  top: 570px;
+  top: 870px;
   right: 625px;
   padding: 5px 10px;
   border-radius: 30%;
@@ -514,7 +556,8 @@ cursor: pointer;
 .cbadge{
     clear: both;
   position: absolute;
-  top: 570px;
+  /* top:570px */
+  top: 870px;
   right: 225px;
   padding: 5px 10px;
   border-radius: 30%;
@@ -568,7 +611,13 @@ cursor: pointer;
   
   /* Darker background on mouse-over */
   .subjects_topics:hover {
-    background-color: rgb(172, 176, 189);
+    background-color:#6c757d ;
+  }
+  .subjects_topics_biology:hover{
+    background-color:#6c757d ;
+  }
+  .subjects_topics_chemistry:hover{
+    background-color:#6c757d ;
   }
   
 
